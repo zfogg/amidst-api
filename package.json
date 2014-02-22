@@ -1,0 +1,28 @@
+{
+  "name": "amidst-api",
+  "version": "0.0.0",
+  "description": "amidst-api ==========",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zfogg/amidst-api"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zfogg/amidst-api/issues"
+  },
+  "homepage": "https://github.com/zfogg/amidst-api",
+  "dependencies": {
+    "coffee-script": "^1.7.1",
+    "express": "^3.4.8",
+    "q": "^1.0.0",
+    "neo4j": "^1.1.0",
+    "node-uuid": "^1.4.1",
+    "underscore": "^1.6.0",
+    "socket.io": "^0.9.16"
+  }
+}
