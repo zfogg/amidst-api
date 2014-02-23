@@ -21,3 +21,11 @@ module.exports = (app, db, io) ->
         res.send 500
 
       .done()
+
+    socket.on "query", (id, queryString, queryParams) ->
+      q()
+        .then ->
+          query queryString, queryParams
+        .then (results) ->
+          console.log results
+          socket.emit "query", {id, results}
